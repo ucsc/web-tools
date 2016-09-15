@@ -1,0 +1,78 @@
+{
+  "Websites": {
+    "Banner (1080 x 348)": {
+      "width": "1080",
+      "height": "348"
+    },
+    "Department Page Banner (778 x 311)": {
+      "width": "778",
+      "height": "311"
+    },
+    "Square Thumbnail (80 x 80)": {
+      "width": "80",
+      "height": "80"
+    },
+    "Sidebar Image (305 x 116)": {
+      "width": "305",
+      "height": "116"
+    },
+    "Square Image (324 x 324)": {
+      "width": "324",
+      "height": "324"
+    },
+    "Faculty Profile (146 x 219)": {
+      "width": "146",
+      "height": "219"
+    },
+    "News Article Portrait (400 x 600)": {
+      "width": "400",
+      "height": "600"
+    },
+    "News Article Landscape (500 x 320)": {
+      "width": "500",
+      "height": "320"
+    },
+    "Image Gallery Portrait (570 x 875)": {
+      "width": "570",
+      "height": "875"
+    },
+    "Image Gallery Landscape (600 x 460)": {
+      "width": "600",
+      "height": "460"
+    },
+    "Callout Portrait (400 x 415)": {
+      "width": "400",
+      "height": "415"
+    },
+    "Callout Landscape (400 x 240)": {
+      "width": "400",
+      "height": "240"
+    }
+  },
+  "Email": {
+    "Banner (622 x 200)": {
+      "width": "622",
+      "height": "200"
+    },
+    "Newsletter Banner (640 x 325)": {
+      "width": "640",
+      "height": "325"
+    },
+    "Article Preview (408 x 230)": {
+      "width": "408",
+      "height": "230"
+    },
+    "Small Article Preview (195 x 140)": {
+      "width": "195",
+      "height": "140"
+    },
+    "Thumbnail (75 x 75)": {
+      "width": "75",
+      "height": "75"
+    },
+    "Sidebar Image (233 x 475)": {
+      "width": "233",
+      "height": "475"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.box {
+  margin: 1em auto;
+  width: 640px;  
+}
+
+canvas {
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+#downloadLink {
+  margin-top: 20px;
+  font-size: 100%;
+  color: #2199e8;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#buttonText{
+  font-family: Helvetica, Arial, sans-serif;
+  outline: 0;
+  width: 100%;
+  height: 2.4375rem;
+  border: 1px solid #cacaca;
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.color-box {
+  display: block;
+  float: right;
+  padding: 5px;
+  border: 1px solid #cacaca;
+}
+
+.color-box, input {
+  margin-top: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}

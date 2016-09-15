@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>{{ page.title }}</title>
+  <meta charset="UTF-8">
+  
+  <script src="../jquery-1.12.0.min.js"></script>
+  {% if page.included_js %}
+  {% for js in page.included_js %}
+  <script src="{{ js }} " defer></script>
+  {% endfor %}
+  {% endif %}
+
+  <link rel="stylesheet" href="../main.css">
+
+  {% if page.included_css %}
+  {% for css in page.included_css %}
+  <link rel="stylesheet" href="{{ css }}">
+  {% endfor %}
+  {% endif %}
+  
+
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">
+          <a href="../">Web Tools</a>
+        </li>
+        <li><a href="../images/">Image Resizer</a></li>
+        <li><a href="../buttons/">Button Builder</a></li>
+        <li><a href="../giving-buttons/">Giving Button Builder</a></li>
+        <li><a href="../callouts/">Callout Box Builder</a></li>
+        <li><a href="http://www.ucsc.edu/identity/emailmarketing/images/banners/">Banner Builder</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {{ content }}
+
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+---
+layout: tool_base
+title: "Web tools: Callout boxes - UC Santa Cruz"
+included_js: 
+- ./callouts.js
+- //cdn.jsdelivr.net/medium-editor/latest/js/medium-editor.min.js
+included_css: 
+- //cdn.jsdelivr.net/medium-editor/latest/css/medium-editor.min.css
+- https://cdnjs.cloudflare.com/ajax/libs/medium-editor/5.16.1/css/themes/beagle.css
+- https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css
+---
+
+<div class="container">
+
+  <div class="row">
+     <h1>Callout box <small>generator</small></h1>
+  </div>
+
+  <div class="row">
+    <p>1. Select <b>the side</b> of the article the box will go on</p>
+    <input type="radio" name="float" checked="checked" value="left" id="left"/>
+    <label for="left">Left</label>
+    <input type="radio" name="float" value="right" id="right"/> 
+    <label for="right">Right</label>
+    
+    <p>2. Select <b>the size</b> the callout box</p>
+    <select name="size" id = "size"> 
+      <option value="full">Full</option>
+      <option value="wide">Wide</option>
+      <option value="narrow">Narrow</option>
+    </select>
+    
+    <p>3. Enter <b>your headline</b></p>
+    <input type="text" name="hText" id="headline" placeholder="Your headline here" />
+      
+    <p>4. Select if there will be <b>an image</b></p>
+    <select name="img" id="img">
+      <option value="landscape">Landscape Image</option>
+      <option value="portrait">Portrait Image</option>
+      <option value="false">No Image</option>
+    </select>
+    
+    <p>5. Enter the callout box <b>content</b>. Highlight the text to get styling options (bold, italic, numbered list, and bullet point list).</p>
+    <div class="editable" id="caption"></div>
+  </div>
+
+  <div class="row">
+     <p>You're done! Now copy the HTML code below and paste it into your website. <b>If there is an image,</b> replace the URL in the image tag (where it says src="dummyimage.com/...") with your custom image url.</p>
+    
+     <textarea name="code" id="code" cols="30" rows="6"><div class='callout-left full'><h3>Add your headline</h3><img src='http://dummyimage.com/400x240/000/fff' height='400' width='240'><p>Add your caption</p></div></textarea>
+  </div>
+
+  <div class="row">
+    <h3>Callout Box Preview</h3> 
+    <div id="preview">
+      <div class='callout-left full'>
+        <h3>Your headline</h3>
+        <img src='http://dummyimage.com/400x240/000/fff' height='400' width='240'>
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, etiam tortor adipiscing qui metus, porttitor lectus tortor dui commodo sit nec. Lacus dui dictum ut eu sapien, ligula lacinia in nulla aliquam tincidunt, amet a amet donec donec, dolor eu dui nisl. Blandit wisi risus orci metus.</p> 
+
+    <p>Feugiat interdum nunc, proin erat tortor tincidunt nec vulputate. Ipsum mi nam leo. Id et. Mauris mi vivamus malesuada, ea vitae venenatis eu porttitor. Integer at erat, sed quam ante iaculis imperdiet duis volutpat, elit suscipit facilisis gravida. Integer at ipsum nunc libero dui explicabo, facilisis condimentum porttitor tempor tristique ac nibh, vel odio duis est vivamus suspendisse qui, eget quisque.</p>
+
+    <p>Mauris magnis, eu lacus in tempor eget inceptos luctus, turpis mauris doloribus, cras libero inceptos quam, suscipit ultrices ea. Metus nulla lorem vitae, morbi eu maecenas eget felis, urna phasellus auctor ipsum eros volutpat, in congue tellus, auctor nibh ultrices wisi. Dignissim quisque mauris.</p>
+
+    <p>Labore ipsum pellentesque, non aliquam massa, eget amet magna vitae, mauris sem, erat velit porta vulputate at sollicitudin at. Magna duis cras imperdiet eu cursus, vel ut nam donec ac arcu ut. Diam mauris magna in eget aliquam ultrices, urna aliquet ultricies cras, eros id tellus donec, tempus magna ligula inceptos, adipiscing donec sed. Cras suspendisse augue, nam mauris turpis libero rutrum condimentum elit.</p>
+
+    <p>Etiam tellus luctus phasellus lacus tortor metus. In hymenaeos, pede erat vitae amet, vitae senectus sed, dui risus a, eros convallis. Sed ut nulla pretium, felis nec, eget nulla ante quis a nam. Risus dui, enim consectetuer scelerisque nulla amet pellentesque tellus.Vehicula tincidunt tellus ultrices ut etiam, turpis mollis sollicitudin, dui morbi tempus litora venenatis metus etiam.</p>
+
+    <p>Nascetur imperdiet esse, donec et fusce nec ipsum sem integer, magna mauris dolor et ad pede pede, suspendisse orci amet.Vel pretium lacinia, sit magna sed. Ipsum praesent amet sed nulla, volutpat tortor condimentum sodales interdum vel. </p>
+  </div>
+
+</div>

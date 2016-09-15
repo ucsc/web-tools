@@ -1,0 +1,29 @@
+---
+layout: default
+---
+  <div class="row">
+    <h1>Web Tools for UC Santa Cruz</h1>
+    <p>Use these tools to edit images, build callout boxes, and create buttons and banners for UC Santa Cruz websites, articles, and email messages.</p>
+
+    <ul>
+      <li><a href="images/">Image Resizing and Cropping</a><p>A tool to crop images into sizes used on UCSC websites, articles, and emails.</p></li>
+      <li><a href="buttons/">Button Builder</a><p>A tool to generate email and form buttons.</p></li>
+      <li><a href="giving-buttons/">Giving Button Builder</a><p>A tool to generate giving buttons for web pages.</p></li>
+      <li><a href="callouts/">Callout Box Builder</a><p>A tool to generate callout boxes for WCMS web pages.</p></li>
+      <li><a href="http://www.ucsc.edu/identity/emailmarketing/images/banners/">Email Banner Builder</a> <p>A tool to generate email banners for UCSC emails.</p></li>
+    </ul>
+  </div>
+
+  <hr/>
+
+  <div class="row">
+      <h2> Changelog</h2>
+      <p>A list of posts detailing updates to this site</p>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            {{ post.date | date_to_long_string }} - <a href="{{ post.url | prepend: '/web-tools' }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+  </div>

@@ -1,0 +1,32 @@
+---
+layout: tool_base
+title: "Web tools: Buttons - UC Santa Cruz"
+included_js: 
+- button_builder.js
+included_css:
+- https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css
+- https://fonts.googleapis.com/css?family=Oswald
+- ./main.css
+--- 
+
+  <div class="box">
+  <div class="row">
+    <h1>Button <small>builder tool</small></h1>
+  </div>
+  <input type="text" id="buttonText" placeholder="Button Text"/>
+  <div class="color-box">
+    <div>Color scheme:</div>
+    <input type="radio" name="color" checked="checked" value="blue" id="blue"/>
+    <label for="blue">Blue and white</label><br>
+    <input type="radio" name="color" value="gold" id="gold"/> 
+    <label for="gold">Gold and blue</label>
+  </div>
+  <canvas id="canvas" width="120px" height="50px"></canvas>
+  <br>
+  <p><a id="downloadLink" download="button.png">Download button</a></p>
+  <h4>To download:</h4> 
+ <ul>   
+     <li>Safari: Click "Download button", click the image and drag it onto your desktop.</li>
+     <li>Chrome: The image will download to your downloads folder as "button.png".</li>
+  </ul>
+  </div>

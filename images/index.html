@@ -1,0 +1,47 @@
+---
+layout: tool_base
+title: "Image cropping and resizing for UC Santa Cruz websites and email"
+included_js: 
+- ./js/croppie.min.js
+- ./js/sweetalert.min.js
+- ./js/dimensions.js
+included_css:
+- ./style/croppie.css
+- ./style/sweetalert.css
+- ./style/skeleton.css
+- ./style/dimensions.css
+- https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css
+- https://fonts.googleapis.com/css?family=Oswald
+---
+    <div class="upload-croppie">
+        <h1 class="title">Image Resizer</h1>
+      <div class="row actions">
+        <p class="description"><a id="instructions" href="#">Read instructions</a></p>
+
+        <div class="file-btn-wrapper">
+          <input class="file-btn" value="Choose a file" name="file" type="file" id="dimension_image_upload">
+          <label for="dimension_image_upload">Upload Image</label>
+        </div>
+      </div>
+      <div class="row actions">
+        <a class="download-crop" download="cropped-image.png"></a>
+        
+        <div class="resize-select-wrapper">
+          <select name="resize-select" id="resize-select" class="u-full-width">
+            <option selected> -- Select a Preset Option -- </option>
+          </select>
+        </div>
+
+        <input id="user-width" type="number" min="0" placeholder="Custom Width" name="width">
+        <input id="user-height" type="number" min="0" placeholder="Custom Height" name="height">
+      </div>
+
+      <div class="row">
+        <div id="upload-croppie"></div>
+        <div class="upload-msg"></div>
+      </div>
+      <div class="result-btn-wrapper">
+        <button class="preview-result">Crop Image</button>
+      </div>
+    </div>
+

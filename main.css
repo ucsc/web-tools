@@ -1,0 +1,31 @@
+.container {
+  margin: 2em;
+}
+
+ul {
+  margin-left: 1em;
+}
+
+#caption {
+  width: 100%;
+  color: #8E8C87;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  margin: 0 0 1rem 0;
+  padding: 0.5em;
+  min-height: 8em;
+  outline: none;
+}
+
+#caption :first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.preview {
+   background-color: #fff;
+   padding: 1em;
+   
+}
