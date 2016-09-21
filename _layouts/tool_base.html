@@ -5,14 +5,14 @@
   <title>{{ page.title }}</title>
   <meta charset="UTF-8">
   
-  <script src="../jquery-1.12.0.min.js"></script>
+  <script src="../javascript/jquery-1.12.0.min.js"></script>
   {% if page.included_js %}
   {% for js in page.included_js %}
   <script src="{{ js }} " defer></script>
   {% endfor %}
   {% endif %}
 
-  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   {% if page.included_css %}
   {% for css in page.included_css %}
