@@ -1,0 +1,125 @@
+#caption {
+  width: 100%;
+  color: #8E8C87;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  margin: 0 0 1rem 0;
+  padding: 0.5em;
+  min-height: 8em;
+  outline: none;
+}
+
+#caption :first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+[class^="callout"]:first-child {
+    margin-top: 0;
+}
+
+[class^="callout"] td {
+    padding: 16px;
+}
+
+[class^="callout"] p {
+    display: inline-block;
+    margin: 8px 0;
+}
+
+[class^="callout"] p span {
+    position: relative;
+    display: inline;
+}
+
+[class ^="callout"] img {
+    position: relative;
+    width: auto;
+    border - radius: 0;
+    height: auto;
+    margin: 0.5e m 0;
+    padding: 0;
+}
+
+[class^="callout"] img + p {
+    margin-top: 0;
+}
+
+.callout-right,
+.right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.callout-left,
+.left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.callout-full {
+    width: 100%;
+}
+
+.narrow {
+    width: 38%;
+}
+
+.wide {
+    width: 62%;
+}
+
+.fixed-200 {
+    width: 200px;
+}
+
+.fixed-240 {
+    width: 240px;
+}
+
+.fixed-250 {
+    width: 250px;
+}
+
+.fixed-290 {
+    width: 290px;
+}
+
+.fixed-300 {
+    width: 300px;
+}
+
+.fixed-540 {
+    width: 540px;
+    padding: 0px;
+}
+
+.callout-right blockquote,
+.callout-left blockquote,
+.callout-full blockquote {
+    margin: 0.9em;
+    padding: 0;
+    border: none;
+}
+
+.callout-right h3,
+.callout-right h4,
+.callout-left h3,
+.callout-left h4,
+.callout-full h3,
+.callout-full h4 {
+    margin: 0;
+}
+
+.callout-right textarea,
+.callout-left textarea,
+.callout-full textarea {
+    font-family: Monaco;
+    border: 1px solid #ccc;
+    width: 70%;
+    height: 80px;
+    overflow: hidden;
+    font-size: 10px;
+}
