@@ -1,10 +1,10 @@
 {
   "Websites": {
-    "Banner (1080 x 348)": {
+    "External Home Page Billboard (1080 x 348)": {
       "width": "1080",
       "height": "348"
     },
-    "Department Page Banner (778 x 311)": {
+    "Administrative Home Page (778 x 311)": {
       "width": "778",
       "height": "311"
     },
@@ -12,7 +12,7 @@
       "width": "80",
       "height": "80"
     },
-    "Sidebar Image (305 x 116)": {
+    "Home Page Featured Profile Thumbnail (305 x 116)": {
       "width": "305",
       "height": "116"
     },
@@ -47,6 +47,26 @@
     "Callout Landscape (400 x 240)": {
       "width": "400",
       "height": "240"
+    },
+    "Banner Image (Left Navigation and List Pages) (740 x 300)": {
+      "width": "740",
+      "height": "300"
+    }, 
+    "Home Page Slideshow Thumbnail (100 x 100)": {
+      "width": "100",
+      "height": "100"
+    },
+    "Gallery Page Thumbnail (170 x 120)": {
+      "width": "170",
+      "height": "120"
+    },
+    "YouTube Video Block Thumbnail (300 x 120)": {
+      "width": "300",
+      "height": "120"
+    },
+    "Left Navigation Block Thumbnail (Portrait) (120 x 154)": {
+      "width": "120",
+      "height": "154"
     }
   },
   "Email": {
