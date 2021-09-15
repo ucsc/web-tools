@@ -43,7 +43,7 @@ $(document).ready(function() {
         type: 'canvas', 
         size: 'viewport',
         format: 'jpeg',
-        quality: 0.8
+        quality: 1.0
       }).then(function(img) {
         $("#download-crop").prop('href', img);
         Resize.popupResult({
